@@ -29,11 +29,13 @@ function App() {
 
   return (
     <div className="App">
-      <Greet name="Viswas" messageCount={10} isLoggedIn={false} />
+      <Greet name="Viswas" isLoggedIn={true} />
       <Person name={personName} />
       <PersonList name={nameList} />
       <Status status="error" />
-      <Oscar><Heading>This is a HEADING inside OSCAR</Heading></Oscar>
+      <Oscar>
+        <Heading>This is a HEADING inside OSCAR</Heading>
+      </Oscar>
     </div>
   );
 }
