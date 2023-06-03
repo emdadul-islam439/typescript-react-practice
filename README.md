@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Background Info
 
-I've worked different projects of React and NextJS. All of them were using JavaScript. This project is about practicing TypeScript using React Components. I've followed the [React TypeScript Playlit](https://www.youtube.com/playlist?list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK). For the effort I will thank the [Codevolution](https://www.youtube.com/@Codevolution) channel. 
+I've worked different projects of React and NextJS. All of them were using JavaScript. This project is about practicing TypeScript using React Components. I've followed the [React TypeScript Playlist](https://www.youtube.com/playlist?list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK). For the effort I will thank the [Codevolution](https://www.youtube.com/@Codevolution) channel. 
 
 ## Available Scripts (default text from create-react-app)
 
