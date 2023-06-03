@@ -7,14 +7,14 @@ type PersonListProps = {
 
 export const PersonList = (props: PersonListProps) => {
   return (
-    <div>
+    <ul>
       {props.name.map((name) => {
         return (
-          <h2 key={name.first}>
+          <li key={name.first}>
             first: {name.first} last: {name.last}
-          </h2>
+          </li>
         );
       })}
-    </div>
+    </ul>
   );
 };
