@@ -1,4 +1,5 @@
 import "./App.css";
+import { ExperiNoType } from "./components/ExperiNoType";
 import { Greet } from "./components/Greet";
 import { Heading } from "./components/Heading";
 import { Oscar } from "./components/Oscar";
@@ -10,6 +11,11 @@ function App() {
   const personName = {
     first: "Bruce",
     last: "Wayne",
+  };
+
+  const nameTitle = {
+    name: "Emdad",
+    title: "No Title",
   };
 
   const nameList = [
@@ -36,6 +42,7 @@ function App() {
       <Oscar>
         <Heading>This is a HEADING inside OSCAR</Heading>
       </Oscar>
+      <ExperiNoType obj={nameTitle} />
     </div>
   );
 }
